@@ -1,0 +1,21 @@
+body {
+    color: green;
+}
+
+.navbar {
+    padding: 1rem;
+    background-color: blue;
+    
+}
+
+.btn-primary:hover {
+    background-color: blue;
+    color: white;
+}
+
+.hero-background-img {
+    background-image: url("./images/akira.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }

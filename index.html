@@ -1,4 +1,91 @@
 <!DOCTYPE html>
-<html>
-    <h1> Hello World</h1>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Launch Page</title>
+    
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- BOOTSTRAP THEME -->
+  <link rel="stylesheet" href="./theme/bootstrap.min.css">
+
+  <!-- CUSTOM STYLES -->
+  <link rel="stylesheet" href="styles.css" type="text/css">
+
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand navbar-light bg-white">
+    <a class="navbar-brand" href="#">Launch Page</a>
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Features</a>
+      <a class="nav-item nav-link" href="#">Pricing</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="jumbotron hero-background-img text-center">
+    <h1>Launch Page</h1>
+    <p class="lead" id="info">A Fantastic Product!</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+
+  <!-- BENEFITS -->
+  <div class="container mb-5 mt-5 pb-5 pt-5">
+    <!-- THE BENEFITS COLUMNS -->
+    <div class="row m-5">
+      <div class="flex-box img-padding-bot">
+        <div class="flex-inside col-lg-6">
+          <img src="./images/graffity.jpg" class="image-size img-fluid rounded">
+          <div class="display-background">
+            <h3 class="subtitle">Safe</h3>
+            <p class="leading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </div>
+        </div>
+        <div class="flex-inside col-lg-6">
+          <img src="./images/picture-3.jpg" class="image-size img-fluid rounded">
+          <div class="display-background">
+            <h3 class="subtitle">Fun</h3>
+            <p class="leading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-box img-padding-bot col-lg-6">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IqVoEpRIaKg" allowfullscreen></iframe>
+        </div>
+        <div class="text-boxes">
+          <h3 class="subtitle-2">Healthy</h3>
+
+          <p class="leading2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+      </div>
+      <div class="img-box col-lg-6">
+        <img src="./images/picture-4.jpg" class="image1 img-fluid rounded">
+        <div class="text-boxes">
+            <h3 class="subtitle-2">Cool</h3>
+            <p class="leading2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+    </div>
+
+  </div>
+
+  <!-- CALL TO ACTION -->
+  <div class="jumbotron text-center mb-0">
+    <p class="lead mb-4">Sign Up for More Infomation</p>
+    <div class="d-flex justify-content-center">
+      <form action="#" class='form-inline'>
+        <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Email"/>
+        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer bg-white p-5">
+    &copy; 2019 Launch Page Inc
+  </div>
 </html>
